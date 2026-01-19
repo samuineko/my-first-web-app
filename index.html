@@ -5,31 +5,49 @@
   <title>My First Web App</title>
 
   <style>
-    body {
-      background-color: #ffe4ec; /* 薄いピンク */
-      font-family: sans-serif;
-    }
+  body {
+    background-color: #ffe4ec; /* 薄いピンク */
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px 0;
+  }
 
-    h1 {
-      color: #ff4f9a; /* 濃いピンク */
-    }
+  h1 {
+    color: #ff4f9a; /* 濃いピンク */
+    margin-bottom: 10px;
+  }
 
-    p {
-      color: #555;
-    }
-  </style>
-</head>
-  <h1>私は坂本結子です！</h1>
-  <p>これは私のはじめてのWebサイトです。</p>
-  <p>初めて作れてうれしいです。</p>
+  p {
+    color: #555;
+    margin-bottom: 40px;
+  }
+
+  .gallery img {
+    width: 400px;
+    max-width: 90%;
+    margin: 20px auto;
+    display: block;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+</style>
+<body>
+  <h1>私の写真ギャラリー 📷</h1>
+
+  <p>
+    デジカメで撮った写真を載せています。
+  </p>
+
+  <div class="gallery">
+    <img src="images/photo1.jpg" alt="写真1">
+    <img src="images/photo2.jpg" alt="写真2">
+    <img src="images/photo3.jpg" alt="写真3">
+  </div>
 </body>
-</html>
-<a href="https://github.com/samuineko">
-  私のGitHubはこちら
-</a>
-<ul>
-  <li>HTML</li>
+
   <li>GitHub Pages</li>
   <li>はじめて触った！</li>
 </ul>
+
 
