@@ -2,82 +2,105 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>My First Web App</title>
+  <title>表参道モーニング</title>
 
- <style>
-body {
-  font-family: "Helvetica Neue", "Yu Gothic", "Hiragino Sans", sans-serif;
-  background: #fafafa;
-  color: #333;
-  margin: 0;
-  padding: 60px 20px;
-  line-height: 1.8;
-}
+  <style>
+    body {
+      font-family: "Helvetica Neue", "Yu Gothic", "Hiragino Sans", sans-serif;
+      background: #fafafa;
+      color: #333;
+      margin: 0;
+      padding: 60px 20px;
+      line-height: 1.8;
+    }
 
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-}
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
 
-h1 {
-  font-size: 32px;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-  margin-bottom: 10px;
-}
+    h1 {
+      font-size: 32px;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      margin-bottom: 10px;
+    }
 
-.subtitle {
-  font-size: 14px;
-  color: #777;
-  margin-bottom: 50px;
-}
-.card img {
-  margin-bottom: 0;
-}
+    .subtitle {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 50px;
+    }
 
-.card .text {
-  text-align: left;
-}
+    .gallery {
+      display: flex;
+      justify-content: center;
+    }
 
-.card .text p {
-  line-height: 1.9;
-}
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      max-width: 600px;
+    }
 
+    .card img {
+      width: 100%;
+      display: block;
+    }
 
-.gallery {
-  <div class="gallery">
-  <div class="card">
-    <img src="images/photo1.jpg" alt="パンとエスプレッソと。外観">
+    .card .text {
+      padding: 20px;
+      text-align: left;
+    }
 
-    <div class="text">
-      <h2>パンとエスプレッソと。</h2>
-      <p>
-        表参道の朝に訪れたい定番のお店。<br>
-        落ち着いた雰囲気の中で、ゆっくりモーニングを楽しめる。
-      </p>
+    .card .text p {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.9;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>表参道モーニング</h1>
+    <div class="subtitle">
+      朝の表参道で、ゆっくり過ごせるお気に入りのお店。
     </div>
 
-    <img src="images/photo2.jpg" alt="メニュー">
+    <div class="gallery">
+      <div class="card">
+        <img src="images/photo1.jpg" alt="パンとエスプレッソと。外観">
 
-    <div class="text">
-      <p>
-        朝の時間帯はモーニングメニューが中心。<br>
-        どれにしようか迷う時間も楽しい。
-      </p>
-    </div>
+        <div class="text">
+          <p>
+            表参道の朝に訪れたい定番のお店「パンとエスプレッソと。」。<br>
+            落ち着いた雰囲気の中で、ゆっくりモーニングを楽しめる。
+          </p>
+        </div>
 
-    <img src="images/photo3.jpg" alt="フレンチトーストプレート">
+        <img src="images/photo2.jpg" alt="メニュー">
 
-    <div class="text">
-      <p>
-        この日はフレンチトーストプレートを注文。<br>
-        しっとりしたパンと香ばしい焼き目が、朝にちょうどいい。
-      </p>
+        <div class="text">
+          <p>
+            朝の時間帯はモーニングメニューが中心。<br>
+            どれにしようか迷う時間も、このお店の楽しさ。
+          </p>
+        </div>
+
+        <img src="images/photo3.jpg" alt="フレンチトーストプレート">
+
+        <div class="text">
+          <p>
+            この日はフレンチトーストプレートを注文。<br>
+            しっとりしたパンと香ばしい焼き目が、朝にちょうどいい。
+          </p>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-<div class="gallery">
-  <div class="card">
-    <img src="images/photo1.jpg" alt="パンとエスプレッソと。外観">
-
-    
+</body>
+</html>
